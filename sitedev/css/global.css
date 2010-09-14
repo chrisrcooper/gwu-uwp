@@ -2655,6 +2655,12 @@
 		color: #2971a7;	
 	}
 	
+	#moduleCM6 .date {
+		font-family: Georgia;
+		font-style: italic;
+		font-size: 11px;
+	}
+	
 	#moduleCM6 .headlineArchiveLink {
 		margin-top: 1.0em;
 	}
