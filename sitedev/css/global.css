@@ -2946,6 +2946,12 @@
 		cursor: pointer;
 	}
 	
+	#moduleCM9 a.subMore {
+		text-align: right;
+		display: block;
+		font-size: 12px;
+	}
+	
 	#moduleCM9-2 {
 		margin-bottom: 30px;
 		font-size: 1.1em;
