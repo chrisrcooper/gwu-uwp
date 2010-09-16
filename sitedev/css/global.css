@@ -2265,6 +2265,7 @@
 		float: left;
 		margin-right: 0;
 		position: relative;
+		margin-bottom: 1.0em;
 	}
 	
 	#moduleCM3-2 .videoCarousel img {
@@ -3303,7 +3304,7 @@
 		display: block;
 		text-align: right;
 		font-style: normal;
-		font-size: 1.1em;
+		font-size: 11px;
 	}
 	
 	#moduleCM11 .featureVisual {
@@ -4778,7 +4779,7 @@
 		display: block;
 		text-align: right;
 		font-style: normal;
-		font-size: 1.1em;
+		font-size: 11px;
 	}
 	
 	#moduleMS1 h3 {
