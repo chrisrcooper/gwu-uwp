@@ -3588,22 +3588,25 @@
 	}
 
 	#moduleCM14 .spotlightCarousel {
+	/* added when rolling back the JS for the carousel */
+		text-indent: -9999em;	
+	
+		width: 100%;
 	}
 	
-	#moduleCM14 .spotlightCarousel .spotlightContainer {
+	/*#moduleCM14 .spotlightCarousel .spotlightContainer {
 		float: right;
 		position: relative;
 		left: -50%;
 	}
+	removed when rolling back the JS for the carousel */
 	
 	#moduleCM14 .spotlightCarousel ul {
+		width: 106px;
+		padding: 0.5em 0;
+		margin-left: auto;
+		margin-right: auto;
 		list-style: none;
-		float: left;
-		position: relative;
-		left: 50%;
-		margin: 0;
-		padding: 0;
-		padding-top: 0.5em;	
 	}
 	
 	#moduleCM14 .spotlightCarousel ul li {

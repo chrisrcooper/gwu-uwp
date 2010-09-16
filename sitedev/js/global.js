@@ -1,4 +1,4 @@
-// These variables will need to be set by the CMS
+ // These variables will need to be set by the CMS
 var currentHeroPlayerImage = 1;
 var maxHeroPlayerImages = 8;
 //
@@ -572,11 +572,17 @@ $(document).ready(function()
 	$('.spotlightCarousel a').live('click',
 		function() {					
 		var currentSpotlight = $(this).attr('rel');
-		var lastSpotlight = $(this).parent().parent().parent().children(':last').prev().children('a').attr('rel');
-		$(this).parent().parent().parent().parent().siblings('div:not(.line):not(.small):not(.clear)').hide();
+		//var lastSpotlight = $(this).parent().parent().parent().children(':last').prev().children('a').attr('rel');
+		//$(this).parent().parent().parent().parent().siblings('div:not(.line):not(.small):not(.clear)').hide();
+		//
+		var lastSpotlight = $(this).parent().parent().children(':last').prev().children('a').attr('rel');
+		$(this).parent().parent().parent().siblings('div:not(.line):not(.small)').hide();
+
 		$(this).parent().parent().children().removeClass('current');
-		$(this).parent().parent().parent().find('a[rel='+$(this).attr('rel')+']').parent().addClass('current');
-		$(this).parent().parent().parent().parent().siblings('.modulePage'+$(this).attr('rel')+'').show();	
+		//$(this).parent().parent().parent().find('a[rel='+$(this).attr('rel')+']').parent().addClass('current');
+		//$(this).parent().parent().parent().parent().siblings('.modulePage'+$(this).attr('rel')+'').show();	
+		$(this).parent().parent().find('a[rel='+$(this).attr('rel')+']').parent().addClass('current');
+		$(this).parent().parent().parent().siblings('.modulePage'+$(this).attr('rel')+'').show();
 		// change the next/prev				
 		var prev = 1;
 		var next = 1;
