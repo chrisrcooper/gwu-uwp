@@ -2241,6 +2241,14 @@
 		font-style: italic;
 	}
 	
+	#moduleCM3-1 .videoDescription a.more {
+		font-size: 12px;
+		display: block;
+		text-align: right;
+		font-family: Arial, sans-serif !important;
+		font-style: normal !important;
+	}
+	
 	#moduleCM3-2 {
 		margin-bottom: 30px;
 	}
