@@ -4779,7 +4779,7 @@
 		display: block;
 		text-align: right;
 		font-style: normal;
-		font-size: 11px;
+		font-size: 11px !important;
 	}
 	
 	#moduleMS1 h3 {
