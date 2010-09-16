@@ -2577,11 +2577,11 @@
 		line-height: 1.3em;
 	}
 	
-	#moduleCM5 a.subMore {
+	#moduleCM5 .event .eventDescription a.subMore {
 		display: block;
 		text-align: right;
-		font-style: normal;
-		font-size: 1.1em;
+		font-weight: normal;
+		font-size: 11px;
 	}
 	
 	#moduleCM5-1 {
