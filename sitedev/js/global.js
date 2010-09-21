@@ -7,9 +7,14 @@ var slideID;
 
 function slideSwitch() {    
     
+    if($('#heroCaption').is(":hidden")) {
+    	$('#heroCaption').fadeIn();
+    }
+    
     var $active = $('#heroImage #heroSlideSet img.activeHeroImage');
 	var $activeCaption = $('#heroImage #heroCaption p.activeCaption');
 	var $activeRollover = $('#heroRollover .activeRollover');
+	
 	
 	
     if ( $active.length == 0 ) $active = $('#heroImage #heroSlideSet img:last');
@@ -20,6 +25,12 @@ function slideSwitch() {
         : $('#heroImage #heroSlideSet img:first');
 	var $nextCaption =  $activeCaption.next().length ? $activeCaption.next()
         : $('#heroImage #heroCaption p:first');
+    
+    
+    if($nextCaption.html()=="") {
+    	$('#heroCaption').fadeOut();
+    }
+    			    
    	var $nextRollover =  $activeRollover.next().length ? $activeRollover.next()
         : $('#heroImage #heroRollover li:first');
         
@@ -36,7 +47,7 @@ function slideSwitch() {
         .addClass('activeCaption')
         .fadeIn('slow',function() {
             $activeCaption.removeClass('activeCaption');
-        });			
+        });	       		
 
 	$nextRollover.addClass('activeRollover')
     $activeRollover.removeClass('activeRollover');
