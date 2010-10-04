@@ -224,6 +224,10 @@
 		margin-bottom: 1.0em;
 	}
 	
+	table.noBorders {
+		border: none 0 !important;
+	}
+	
 	#contentNav td,
 	#contentRelated td {
 		padding: 0.5em;
