@@ -75,19 +75,78 @@ body {
 
 }
 
+#container h1 {
+	background-image: url(../images/webkit/gwtoday/bgLogo.png);
+	background-repeat: repeat-x;
+	background-size: auto 44px;
+	height: 44px;
+	position: relative;
+}
+
+#container h1 span {
+	position: absolute;
+	right: 2.0em;
+	top: 0.9em;
+	color: #555;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.2em;
+}
+
+#container #fullstory .center {
+	text-align: center;
+}
+
+#container #fullstory {
+	text-align: left;
+}
+
+#container #fullstory h2 {
+	font-size: large;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 10px 0;
+	padding: 0px 5px;
+}
+
+#container #fullstory .summary {
+	color: #777;
+	font-weight: bold;
+	margin-bottom: 1.0em;
+	padding: 0px 5px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+}
+
+#container #fullstory .date {
+	color: #999;
+	font-weight: normal;
+}
+
+#container #fullstory p {
+	margin-bottom: 1.0em;
+	padding: 0px 5px;
+}
+
 #container .story {
 	clear: both;
 	font-family: Times, serif;
+	position: relative;
+	border-bottom: 1px solid #e6e6e6;
+	min-height: 75px;
 }
 
 #container .story h2 {
 	font-size: 1.0em;
 	color: #000;
-	
+	font-weight: bold;
+	padding-top: 10px;
+	line-height: 1.4em;
+	margin-left: 85px;
 }
 
 #container .story p {
-	color: #aaa;
+	color: #999;
+	padding-right: 2.0em;
+	margin-left: 85px;
 }
 
 #container .story img {
@@ -95,7 +154,59 @@ body {
 }
 
 #container .story a.more {
-	text-indent: -9999em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#container .story a.more img {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	display: block;
+}
+
+#container .fullsite {
+	text-align: right;
+	background-image: url(../images/webkit/gwtoday/bgReadMore.png);
+	background-repeat: repeat-x;
+	background-size: auto 23px;
+	height: 23px;
+}
+
+#container #footer {
+	background-color: #03314b;
+	position: relative;
+	padding: 10px 7px 30px 7px;
+}
+
+#container #footer a {
+	text-decoration: none;
+}
+
+#container #footer a:hover {
+	text-decoration: underline;
+}
+
+#container #footer h3 a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+#container #footer .right {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color: #60a5d2;
+	font-size: 0.8em;
+}
+
+#container #footer .right a {
+	color: #60a5d2;
 }
 
 /* misc 
@@ -103,4 +214,12 @@ body {
 
 .clear {
 	clear: both;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
 }
