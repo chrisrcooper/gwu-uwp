@@ -128,7 +128,7 @@ body {
 
 #container .story {
 	clear: both;
-	font-family: Times, serif;
+	font-family: Helvetica, Arial, sans-serif;
 	position: relative;
 	border-bottom: 1px solid #e6e6e6;
 	min-height: 75px;
@@ -144,7 +144,7 @@ body {
 }
 
 #container .story p {
-	color: #999;
+	color: #777;
 	padding-right: 2.0em;
 	margin-left: 85px;
 }
