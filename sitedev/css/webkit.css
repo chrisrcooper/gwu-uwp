@@ -101,29 +101,33 @@ body {
 }
 
 #container #fullstory h2 {
-	font-size: large;
+	font-size: 1.8em;
 	font-family: Helvetica, Arial, sans-serif;
 	margin: 10px 0;
 	padding: 0px 5px;
 }
 
 #container #fullstory .summary {
-	color: #777;
+	color: #000;
 	font-weight: bold;
-	margin-bottom: 1.0em;
+	margin-bottom: 20px;
 	padding: 0px 5px;
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 0.8em;
 }
 
 #container #fullstory .date {
 	color: #999;
+	font-family: Helvetica, Arial, sans-serif;
 	font-weight: normal;
 }
 
 #container #fullstory p {
 	margin-bottom: 1.0em;
+	font-size: 1.3em;
+	line-height: 1.4em;
 	padding: 0px 5px;
+	color: #333;
+	font-family: "minion-pro-1","minion-pro-2","Times",Georgia,serif;
 }
 
 #container .story {
@@ -135,17 +139,17 @@ body {
 }
 
 #container .story h2 {
-	font-size: 1.0em;
+	font-size: 1.2em;
 	color: #000;
 	font-weight: bold;
 	padding-top: 10px;
-	line-height: 1.4em;
+	margin-bottom: 5px;
 	margin-left: 85px;
 }
 
 #container .story p {
-	color: #999;
-	padding-right: 2.0em;
+	color: #777;
+	padding-right: 3.0em;
 	margin-left: 85px;
 }
 
