@@ -28,7 +28,7 @@ function slideSwitch() {
     	$('#heroCaption').fadeIn();
     }
     
-    if($nextCaption.html()=="") {
+    if($nextCaption.html().trim()=="") {
     	$('#heroCaption').fadeOut();
     }
     			    
