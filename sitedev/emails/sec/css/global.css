@@ -84,8 +84,10 @@ strong, em, b, i {
 }
 
 #container #header {
-	height: 43px;
-	padding: 10px 0;
+	/*height: 43px;*/
+	height: 143px;
+	padding: 0;
+	/*padding: 10px 0;*/
 	margin: 0 20px;
 	border-left: 2px solid #827251;
 	border-right: 2px solid #827251;
@@ -96,12 +98,20 @@ strong, em, b, i {
 
 #container #header h1 {
 	text-indent: -9999em;
-	background-image: url(../images/logo3.gif);
+	background-image: url(../images/logo4.jpg);
 	display: block;
+	position: absolute;
+	/* logo 1-3 sizing
 	height: 43px;
 	width: 337px;
-	position: absolute;
-	right: 20px;
+	right: 20px;	
+	*/
+	top: 43px;
+	height: 100px;
+	width: 916px;	
+	margin: 0;
+	padding: 0;
+	
 }
 
 #container #header h2 {
