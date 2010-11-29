@@ -209,6 +209,7 @@ strong, em, b, i {
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	padding-bottom: 20px;
+	margin: 0 20px;
 }
 
 #container #content #sidebar .section h3 {
@@ -254,4 +255,16 @@ strong, em, b, i {
 	position: absolute;
 	right: 20px;
 	top: 0px;
+}
+
+
+/* TABLE DEPENDENT SECTION */
+
+table#container {
+	width: 100%;
+}
+
+table#content {
+	width: 960px;
+	background-color: #fff;
 }
