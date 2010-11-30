@@ -1,0 +1,190 @@
+
+/* TABLE DEPENDENT SECTION */
+
+body {
+	margin: 0;
+	background-color: #ddd;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+
+p.unsubscribe {
+	color: #444;
+	font-size: 12px;
+	line-height: 16px;
+	margin-bottom: 10px;
+}
+
+p.center {
+	text-align: center;
+}
+
+table tr td {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+table#container {
+	width: 900px;
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	
+	border: 2px solid #827251;
+	
+	margin-bottom: 20px;
+}
+
+a {
+	color: #4282b1;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+table tr#header td {
+	background-color: #03314b;
+}
+
+table tr td#primary {
+}
+
+table tr td#primary h2 {
+	font-size: 24px;
+	line-height: 24px;
+	color: #03314b;
+	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;	
+	margin-bottom: 5px;
+	font-weight: normal;
+	
+}
+
+table tr td#primary h3 {
+	font-size: 18px;
+	line-height: 18px;
+	color: #827251;
+	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;	
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+
+table tr td#primary h3.date {
+	margin-bottom: 0;
+	margin-top: 15px;
+}
+
+
+table tr td#primary h4 {
+	font-size: 14px;
+	color: #827251;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+table tr td#primary p,
+table tr td#primary ul {
+	font-size: 14px;
+	color: #333;
+	line-height: 16px;
+	margin-bottom: 1.0em;
+	text-align: justify;
+}
+
+table tr td#primary ul {
+	margin-left: 20px;
+	line-height: 18px;
+	padding: 0;
+	list-style: inside disc;
+	color: #03314b;
+}
+
+
+table tr td#sidebar {
+	background-color: #f5f9fb;
+	padding: 20px 0;
+}
+
+table tr td#sidebar div#feature {	
+	margin: 25px 10px 0 10px;
+	position: relative;
+}
+
+table tr td#sidebar div#feature h2 {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	top: 225px;
+	left: 30px;
+	text-align: center;
+	width: 275px;
+	
+	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;	
+	font-size: 12px;
+	font-weight: normal;
+	color: #999;
+}
+
+table tr td#sidebar .section {
+	padding-top: 10px;
+	background-image: url(../images/ornament.gif);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	padding-bottom: 20px;
+	margin: 0 10px;
+}
+
+table tr td#sidebar h3 {
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 10px;
+	color: #827251;
+	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;	
+	font-weight: normal;
+}
+
+table tr td#sidebar p {
+	color: #444;
+	font-size: 12px;
+	line-height: 16px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+table tr td#sidebar p img {
+	margin: 4px 10px 10px 0;
+	float: left;
+}
+
+
+table tr#footer td {
+	background-color: #03314b;
+	color: #fff;
+	font-size: 14px;
+	line-height: 25px;
+	
+	width: 450px;
+
+	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;	
+	
+}
+
+table tr#footer td p {
+	margin: 0 15px;
+	padding: 0;
+}
+
+table tr#footer td.right {
+	text-align: right;
+}
+
+/* CONTENT */
+
+table tr td#primary p.unsubscribe {
+	font-size: 12px;
+	line-height: 16px;
+	color: #999;
+	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;
+	margin-top: 1.0em;
+}
