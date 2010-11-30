@@ -24,11 +24,11 @@ function slideSwitch() {
 	var $nextCaption =  $activeCaption.next().length ? $activeCaption.next()
         : $('#heroImage #heroCaption p:first');
         
-    if($('#heroCaption').is(":hidden") && ($nextCaption.html().trim() !=="")) {
+    if($('#heroCaption').is(":hidden") && ($.trim($nextCaption.html()) !=="")) {
     	$('#heroCaption').fadeIn();
     }
     
-    if($nextCaption.html().trim()=="") {
+    if($.trim($nextCaption.html())=="") {
     	$('#heroCaption').fadeOut();
     }
     			    
@@ -454,18 +454,21 @@ $(document).ready(function()
 			$('#heroImage #heroSlideSet img.heroSlideSet'+hoverID+'').addClass('activeHeroImage');
 			$('#heroImage p').removeClass('activeCaption').hide();
 			$('#heroImage p.'+hoverID+'').addClass('activeCaption').show();
-			if($('#heroImage p.'+hoverID+'').html().trim()=="") {
+			if($.trim($('#heroImage p.'+hoverID+'').html())=="") {
 		    	$('#heroCaption').hide();
 		    }
-		    if($('#heroCaption:hidden') && $('#heroImage p.'+hoverID+'').html().trim() !== "") {
+		    if($.trim($('#heroCaption:hidden') && $('#heroImage p.'+hoverID+'').html()) !== "") {
 		    	$('#heroCaption').show();
 		    }							
 			$(this).parent().parent().children().removeClass('activeRollover');
 			$(this).parent().addClass('activeRollover');									
 	});	
 	
+	
+	
+	
 	//on initial load, check the first caption isn't empty (and hide if it is)
-	if($('#heroImage p.1').html().trim()=="") {
+	if($.trim($('#heroImage p.1').html()) == "") {
     	$('#heroCaption').hide();
     }
 	
