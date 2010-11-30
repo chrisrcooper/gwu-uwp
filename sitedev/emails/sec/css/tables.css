@@ -7,6 +7,17 @@ body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
 }
 
+p.unsubscribe {
+	color: #444;
+	font-size: 12px;
+	line-height: 16px;
+	margin-bottom: 10px;
+}
+
+p.center {
+	text-align: center;
+}
+
 table tr td {
 	padding: 0;
 	margin: 0;
@@ -19,19 +30,17 @@ table#container {
 	margin-left: auto;
 	margin-right: auto;
 	
-	border-left: 2px solid #827251;
-	border-right: 2px solid #827251;
-	border-bottom: 2px solid #827251;	
+	border: 2px solid #827251;
 	
 	margin-bottom: 20px;
 }
 
-#container a {
+a {
 	color: #4282b1;
 	text-decoration: none;
 }
 
-#container a:hover {
+a:hover {
 	text-decoration: underline;
 }
 
@@ -49,16 +58,23 @@ table tr td#primary h2 {
 	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;	
 	margin-bottom: 5px;
 	font-weight: normal;
+	
 }
 
 table tr td#primary h3 {
 	font-size: 18px;
-	line-height: 24px;
+	line-height: 18px;
 	color: #827251;
 	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;	
 	margin-bottom: 20px;
 	font-weight: normal;
 }
+
+table tr td#primary h3.date {
+	margin-bottom: 0;
+	margin-top: 15px;
+}
+
 
 table tr td#primary h4 {
 	font-size: 14px;
@@ -73,10 +89,12 @@ table tr td#primary ul {
 	color: #333;
 	line-height: 16px;
 	margin-bottom: 1.0em;
+	text-align: justify;
 }
 
 table tr td#primary ul {
 	margin-left: 20px;
+	line-height: 18px;
 	padding: 0;
 	list-style: inside disc;
 	color: #03314b;
@@ -88,26 +106,28 @@ table tr td#sidebar {
 	padding: 20px 0;
 }
 
-table tr td#sidebar div#feature {
+table tr td#sidebar div#feature {	
+	margin: 25px 10px 0 10px;
 	position: relative;
-	margin: 0 10px;	
 }
 
 table tr td#sidebar div#feature h2 {
 	position: absolute;
-	top: 215px;
-	left: 0;
+	padding: 0;
+	margin: 0;
+	top: 225px;
+	left: 30px;
 	text-align: center;
-	width: 100%;
+	width: 275px;
 	
 	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;	
-	font-size: 18px;
+	font-size: 12px;
 	font-weight: normal;
-	color: #aaa;
+	color: #999;
 }
 
 table tr td#sidebar .section {
-	padding-top: 20px;
+	padding-top: 10px;
 	background-image: url(../images/ornament.gif);
 	background-repeat: no-repeat;
 	background-position: bottom center;
@@ -129,6 +149,7 @@ table tr td#sidebar p {
 	font-size: 12px;
 	line-height: 16px;
 	margin-bottom: 10px;
+	text-align: justify;
 }
 
 table tr td#sidebar p img {
@@ -146,6 +167,12 @@ table tr#footer td {
 	width: 450px;
 
 	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;	
+	
+}
+
+table tr#footer td p {
+	margin: 0 15px;
+	padding: 0;
 }
 
 table tr#footer td.right {
@@ -159,4 +186,5 @@ table tr td#primary p.unsubscribe {
 	line-height: 16px;
 	color: #999;
 	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;
+	margin-top: 1.0em;
 }
