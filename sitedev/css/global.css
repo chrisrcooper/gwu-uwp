@@ -3785,10 +3785,10 @@
 		margin-bottom: 1.0em;
 	}
 	
-	.itemImage .caption {
+	.itemImage .caption,
+	.featureVisual .caption {
 		font-style: italic;
 		margin-top: 0.5em;
-		width: 100%;
 		color: #777;
 	}
 	
@@ -3993,11 +3993,6 @@
 		float: left;
 		margin-right: 1.0em;
 		margin-bottom: 1.0em;
-	}
-	
-	#moduleCM23 .moduleItem .itemImage .caption {
-		float: left;
-		width: auto;
 	}
 	
 	#moduleCM23 .moduleItem .itemImage img {
