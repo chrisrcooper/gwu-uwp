@@ -3785,6 +3785,13 @@
 		margin-bottom: 1.0em;
 	}
 	
+	.itemImage .caption,
+	.featureVisual .caption {
+		font-style: italic;
+		margin-top: 0.5em;
+		color: #777;
+	}
+	
 	#moduleCM18 .moduleItem .itemImage img {
 		margin-bottom: 0;
 	}
@@ -3941,9 +3948,16 @@
 		margin-bottom: 30px;
 	}
 	
-	#moduleCM23 h4 {
-		font-weight: bold;
+	#moduleCM22 h3 {
 		font-size: 1.8em;
+		line-height: 1.2em;
+		letter-spacing: -1px;
+	}
+	
+	#moduleCM22 h4 {
+		font-style: italic;
+		font-weight: bold;
+		font-size: 1.2em;
 		margin: 1.0em 0;
 	}
 	
