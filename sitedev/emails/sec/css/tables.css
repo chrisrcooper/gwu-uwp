@@ -5,6 +5,7 @@ body {
 	margin: 0;
 	background-color: #ddd;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
 }
 
 p.unsubscribe {
@@ -27,8 +28,7 @@ table tr td {
 table#container {
 	width: 900px;
 	background-color: #fff;
-	margin-left: auto;
-	margin-right: auto;
+
 	
 	border: 2px solid #827251;
 	
@@ -53,11 +53,16 @@ table tr td#primary {
 
 table tr td#primary h2 {
 	font-size: 24px;
-	line-height: 24px;
+	line-height: 26px;
+	letter-spacing: -1px;
 	color: #03314b;
-	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;	
+	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;
+		
+	/*font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	*/
 	margin-bottom: 5px;
 	font-weight: normal;
+	margin-top: 15px;
 	
 }
 
@@ -89,7 +94,7 @@ table tr td#primary ul {
 	color: #333;
 	line-height: 16px;
 	margin-bottom: 1.0em;
-	text-align: justify;
+	;
 }
 
 table tr td#primary ul {
@@ -102,8 +107,27 @@ table tr td#primary ul {
 
 
 table tr td#sidebar {
-	background-color: #f5f9fb;
-	padding: 20px 0;
+	background-color: #ede2cd;
+	padding: 0;
+}
+
+
+table tr td#sidebar div#marketing {
+	background-color: #ede2cd;
+	padding: 10px;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+table tr td#sidebar div#marketing p {
+	margin: 0;
+	
+	font-size: 16px;
+	line-height: 18px;
+	color: #000;
+	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;	
+	font-weight: normal;
 }
 
 table tr td#sidebar div#feature {	
@@ -127,29 +151,30 @@ table tr td#sidebar div#feature h2 {
 }
 
 table tr td#sidebar .section {
-	padding-top: 10px;
-	background-image: url(../images/ornament.gif);
+	background-image: url(../images/ornament2.gif);
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	padding-bottom: 20px;
-	margin: 0 10px;
+	margin: 0 10px 20px;
+	padding-top: 10px;
 }
 
 table tr td#sidebar h3 {
 	font-size: 18px;
-	line-height: 24px;
+	line-height: 20px;
 	margin-bottom: 10px;
-	color: #827251;
+	color: #03314b;
 	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;	
 	font-weight: normal;
+	margin-top: 10px;
 }
 
 table tr td#sidebar p {
-	color: #444;
+	color: #333;
 	font-size: 12px;
 	line-height: 16px;
 	margin-bottom: 10px;
-	text-align: justify;
+	;
 }
 
 table tr td#sidebar p img {

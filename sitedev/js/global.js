@@ -788,7 +788,7 @@ $(document).ready(function()
 				$(this).siblings().removeClass('current');
 				$(this).addClass('current');
 				$('#moduleMM1 div.carouselDescription:visible').hide();
-				$('#moduleMM1 div#carouselDescription'+$(this).attr('id').replace(/\D/g,'')+'').fadeIn();
+				$('#moduleMM1 div#MM1carouselDescription'+$(this).attr('id').replace(/\D/g,'')+'').fadeIn();
 			});
 			
 			$('#moduleCM9 li.carouselItem').live('click',
@@ -796,7 +796,7 @@ $(document).ready(function()
 				$(this).siblings().removeClass('current');
 				$(this).addClass('current');
 				$('#moduleCM9 div.carouselDescription:visible').hide();
-				$('#moduleCM9 div#carouselDescription'+$(this).attr('id').replace(/\D/g,'')+'').fadeIn();
+				$('#moduleCM9 div#CM9carouselDescription'+$(this).attr('id').replace(/\D/g,'')+'').fadeIn();
 			});
 			
 			$('#moduleCM9-2 li.carouselItem').live('click',
@@ -804,7 +804,7 @@ $(document).ready(function()
 				$(this).siblings().removeClass('current');
 				$(this).addClass('current');
 				$('#moduleCM9-2 div.carouselDescription:visible').hide();
-				$('#moduleCM9-2 div#carouselDescription'+$(this).attr('id').replace(/\D/g,'')+'').fadeIn();
+				$('#moduleCM9-2 div#CM9carouselDescription'+$(this).attr('id').replace(/\D/g,'')+'').fadeIn();
 			});
 			
 			$('#moduleCM9-3 li.carouselItem').live('click',
@@ -812,7 +812,7 @@ $(document).ready(function()
 				$(this).siblings().removeClass('current');
 				$(this).addClass('current');
 				$('#moduleCM9-3 div.carouselDescription:visible').hide();
-				$('#moduleCM9-3 div#carouselDescription'+$(this).attr('id').replace(/\D/g,'')+'').fadeIn();
+				$('#moduleCM9-3 div#CM9carouselDescription'+$(this).attr('id').replace(/\D/g,'')+'').fadeIn();
 			});
 
 	        $(this).bind('goto', function (event, page) {
