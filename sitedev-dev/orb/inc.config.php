@@ -1,7 +1,7 @@
 <?php
 	// LOGIN TO MySQL
-	mysql_connect("localhost", "root", "culcorp1") or die(mysql_error());
-	mysql_select_db("dev_chris") or die(mysql_error());
+	mysql_connect("localhost", "root", "Mp4siinb") or die(mysql_error());
+	mysql_select_db("ORB") or die(mysql_error());
 	//
 	
 	// set base variables
