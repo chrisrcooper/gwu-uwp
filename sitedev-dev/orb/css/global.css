@@ -1,0 +1,62 @@
+body {
+	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;
+}
+
+td,
+th {
+	border: 1px solid #aaa;
+	padding: 2px;
+	margin: 0;
+	vertical-align: top;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	font-weight: bold;
+	background-color: #eee;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+
+label {
+	float: left;
+	display: block;
+	width: 150px;
+	margin-right: 10px;
+}
+
+input[type=text], input[type=password], select, textarea {
+	width: 200px;
+	padding: 2px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+textarea {
+	height: 100px;
+}
+
+#container {
+	width: 960px;
+	margin: 1.0em auto;
+}
+
+div#addIssue form#add {
+
+}
+
+div#addIssue form#edit {
+	float: left;
+	width: 47%;
+	margin-right: 6%;
+}
+
+.clear {
+	clear: both;
+}
+
+ul li {
+	list-style: inside;
+}

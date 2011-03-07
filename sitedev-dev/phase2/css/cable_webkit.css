@@ -1,0 +1,283 @@
+/*
+	TABLE OF CONTENTS
+
+	RESET - clears the styles for all browsers so we start equally
+	GLOBAL - sets styles for global elements such as the nav and the columns
+*/
+
+/*
+	RESET
+
+*/
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, font, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font-weight: inherit;
+		font-style: inherit;
+		font-size: 100%;
+		font-family: inherit;
+		vertical-align: baseline;
+	}
+	/* remember to define focus styles! */
+	:focus {
+		outline: 0;
+	}
+	body {
+		line-height: 1;
+		color: black;
+		background: white;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	/* tables still need 'cellspacing="0"' in the markup */
+	table {
+		border-collapse: separate;
+		border-spacing: 0;
+	}
+	caption, th, td {
+		text-align: left;
+		font-weight: normal;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: "";
+	}
+	blockquote, q {
+		quotes: "" "";
+	}
+
+/*
+	GLOBAL
+	-Global Content Pieces
+*/
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+
+#container {
+
+}
+
+#container h1 {
+	background-image: url(../images/webkit/gwcable/bgLogo.png);
+	background-repeat: repeat-x;
+	background-size: auto 44px;
+	height: 44px;
+	position: relative;
+}
+
+#container h1 span {
+	position: absolute;
+	right: 2.0em;
+	top: 0.9em;
+	color: #fff;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.2em;
+}
+
+#container .sectionTitle {
+	height: 1.8em;
+	background-color: #e7c22d;
+	font-size: 1.4em;
+	line-height: 1.8em;
+	vertical-align: middle;
+	font-weight: bold;
+	color: #333;
+	border-bottom: 1px solid #c2a631;
+	border-top: 1px solid #e6e6e6;
+	padding: 0 1.0em;
+	font-family: Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+#container .sectionTitle a {
+	display: block;
+	height: 1.8em;
+	line-height: 1.8em;
+	width: 100%;
+	color: #003a5a;
+	text-decoration: none;
+}
+
+#container #fullstory .center {
+	text-align: center;
+}
+
+#container #fullstory {
+	text-align: left;
+}
+
+#container #fullstory h2 {
+	font-size: 1.8em;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 10px 0;
+	padding: 0px 5px;
+}
+
+#container #fullstory .summary {
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding: 0px 5px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#container #fullstory .date {
+	color: #fff;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+#container #fullstory p {
+	margin-bottom: 1.0em;
+	font-size: 1.3em;
+	line-height: 1.4em;
+	padding: 0px 5px;
+	color: #333;
+	font-family: "minion-pro-1","minion-pro-2","Times",Georgia,serif;
+}
+
+#container .story {
+	clear: both;
+	font-family: Helvetica, Arial, sans-serif;
+	position: relative;
+	border-bottom: 1px solid #e6e6e6;
+	min-height: 75px;
+}
+
+#container .story.feature {
+	border: none 0;
+}
+
+#container .story h2 {
+	font-size: 1.2em;
+	color: #000;
+	font-weight: bold;
+	padding-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 85px;
+	text-transform: capitalize;
+}
+
+#container .story.feature h2 {
+	margin-left: 10px;
+}
+
+#container .story p {
+	color: #777;
+	padding-right: 3.0em;
+	margin-left: 85px;
+}
+
+#container .story.feature p {
+	margin-left: 10px;
+}
+
+#container .story img {
+	float: left;
+}
+
+#container .story.feature img {
+	float: none;
+	margin-left: 10px;
+	margin-top: 1.0em;
+}
+
+#container .story a.more {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#container .story a.featureMore {
+	color: #60a5d2;
+	text-align: right;
+	display: block;
+	margin-right: 1.0em;
+	margin-top: 1.0em;
+	font-size: 1.2em;
+	font-style: italic;
+	font-family: Georgia, serif;
+}
+
+#container .story a.more img {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	display: block;
+}
+
+#container .fullsite {
+	text-align: right;
+	background-image: url(../images/webkit/gwtoday/bgReadMore.png);
+	background-repeat: repeat-x;
+	background-size: auto 23px;
+	height: 23px;
+}
+
+#container #footer {
+	background-color: #03314b;
+	position: relative;
+	padding: 10px 7px 30px 7px;
+}
+
+#container #footer a {
+	text-decoration: none;
+}
+
+#container #footer a:hover {
+	text-decoration: underline;
+}
+
+#container #footer h3 a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+#container #footer .right {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color: #60a5d2;
+	font-size: 0.8em;
+}
+
+#container #footer .right a {
+	color: #60a5d2;
+}
+
+/* misc 
+*/
+
+.clear {
+	clear: both;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}

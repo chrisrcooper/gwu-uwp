@@ -1,0 +1,47 @@
+/* COLOR SET FOR PROVOST */
+
+#container #contentWrapperShadow #contentWrapper #heroMenu {
+	background-color: #518db5;
+
+}
+
+#container #contentWrapperShadow #contentWrapper #heroMenu ul {
+	background-color: #03314b;
+}
+
+#container #contentWrapperShadow #contentWrapper #heroMenu ul li a {
+	background-color: #03314b;
+	color: #dfedf5;
+}
+
+#container #contentWrapperShadow #contentWrapper #heroMenu ul li a:hover {
+	background-color: #518db5;
+	color: #fff;
+}
+
+#container #contentWrapperShadow #contentWrapper #heroMenu ul ul {
+	background-color: #F6F3EB;
+	border: 1px solid #518db5;
+	border-top: 6px solid #518db5 !important;
+}
+
+#container #contentWrapperShadow #contentWrapper #heroMenu ul li:hover a,
+#container #contentWrapperShadow #contentWrapper #heroMenu ul li a.current {
+	border-bottom: 2px solid #518db5;
+	background-color: #518db5;
+}
+
+#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li a {
+	border-bottom: 0px none !important;
+}
+
+#container #contentWrapperShadow #contentWrapper #contentNav div.hr,
+#container #contentWrapperShadow #contentWrapper #contentMain div.hr,
+#container #contentWrapperShadow #contentWrapper #contentRelated div.hr {
+	background-color: #dae4eb;
+}
+
+#container #contentWrapperShadow #contentWrapper #contentMain div.hr {
+	background-color: #518db5;
+	border-top: 1px solid #03314b;
+}

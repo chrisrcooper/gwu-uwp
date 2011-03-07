@@ -1,0 +1,13 @@
+	#container #contentWrapperShadow #contentWrapper #hero .heroSlider .header.bg1 {
+		background-image: url(../images/smhhs_bgHeroSliderHeader1.png);
+		border-left: none;
+	}
+	
+	#container #contentWrapperShadow #contentWrapper #hero .heroSlider .header.bg2 {
+		background-image: url(../images/smhhs_bgHeroSliderHeader2.png);
+	}
+	
+	#container #contentWrapperShadow #contentWrapper #hero .heroSlider .header.bg3 {
+		background-image: url(../images/smhhs_bgHeroSliderHeader3.png);
+		background-position: center 3px;
+	}
