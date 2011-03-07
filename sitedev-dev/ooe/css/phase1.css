@@ -1,0 +1,71 @@
+body {
+	background-color: #FFC;
+	margin: 0;
+}
+
+#container {
+	background-color: #03314B;
+	padding: 10px;
+}
+
+div#holder {	
+	/*width: 960px;
+	margin: 0 auto;
+	background-color: #e4edf3;
+	color: #03314B;
+	border: none 0;
+	*/
+	
+	width: auto;
+	padding: 10px;
+	background-color: #fbe3e4;	
+	border: 1px solid #ff0000;
+	color: #333;
+	margin-top: 1.0em;
+	
+}
+
+#container #header {
+	background-image: url(../images/gwu.png);
+	background-repeat: no-repeat;
+	background-position: 0 20px;
+	color: #fff;
+	
+	height: 150px;	
+}
+
+#container #header #logo {
+	text-align: right;
+	padding-top: 30px;
+}
+
+#container #header a,
+#container #footer a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#container #header a:hover,
+#container #footer a:hover {
+	color: #4282B1;
+}
+
+#container #footer {
+	color: #fff;
+}
+
+#container #content {
+	background-color: #fff;
+	padding: 20px;
+}
+
+#container #profile p,
+#container #profile ul li {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#container #profile img {
+	float: left; 
+	margin-right: 20px;
+}

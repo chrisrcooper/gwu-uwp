@@ -1,0 +1,246 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+img {
+	border: 0 none;
+}
+
+a {
+	color: #4282B1;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p, ul li {
+	font-size: 12px;
+	line-height: 1.1em;
+}
+
+.hide {
+	display: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.right {
+	text-align: right;
+}
+
+.sub {
+	margin-left: 2.0em;
+	font-size: 12px;
+	line-height: 1.0em;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+#header {
+	position: relative;
+}
+
+#header #logo {
+	text-align: center;
+}
+
+#header #nav {
+	right: 0;
+	position: absolute;
+	top: 0;
+}
+
+#header #welcome {
+	left: 0;
+	position: absolute;
+	top: 0;
+	padding: 0 5px;
+	margin: 0 5px;
+	font-size: 12px;
+}
+
+#header #nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#header #nav ul li {
+	float: left;
+	list-style: none;
+}
+
+#header #nav ul li a {
+	display: block;
+	padding: 0 5px;
+	margin: 0 5px;
+	font-size: 12px;
+}
+
+#content table {
+	width: 100%;
+}
+
+#content table th {
+	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.1em;
+	color: #ccc;
+	font-size: 16px;
+	text-align: left;
+	padding: 3px;
+}
+
+#content table td {
+	font-size: 14px;
+	line-height: 1.1em;
+	vertical-align: top;
+	padding: 3px;
+}
+
+#footer p {
+	text-align: center;
+}
+
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: -1px;
+	line-height: 1.1em;
+	color: #333;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+/* fieldsets */
+
+fieldset {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+fieldset legend {
+	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: -1px;
+	line-height: 1.1em;
+	color: #333;
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+fieldset label {
+	font-size: 14px;
+	color: #555;
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+fieldset small {
+	color: #aaa;
+	font-family: minion-pro-1, minion-pro-2, 'Times New Roman', Georgia, serif;
+	font-style: italic;
+	font-size: 13px;
+	margin-left: 10px;
+}
+
+fieldset input[type=text], input[type=password] {
+	border-style: inset;
+	border-width: 2px;
+	width: 200px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 18px;
+	height: 21px;
+	padding: 2px;
+	margin-bottom: 2px;
+}
+
+fieldset select {
+	width: 208px;
+	margin-bottom: 2px;
+	height: 21px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+fieldset input[type=file] {
+	width: 210px;
+	margin-left: 150px;
+}
+
+fieldset textarea {
+	border-style: inset;
+	border-width: 2px;
+	width: 200px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 14px;
+	color: #555;
+	height: 150px;
+	padding: 2px;
+	margin-bottom: 2px;
+}
+
+fieldset label .red {
+	color: #ff0000;
+}
+
+div#holder {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 14px;
+	color: #555;
+	background-color: #dff4ff;
+    border: 1px solid #c2e1ef;
+    color: #336699;
+	width: 100%;
+	margin-bottom: 1.5em;
+	text-align: center;
+}
+
+div#holder a {
+	color: #333;
+}
