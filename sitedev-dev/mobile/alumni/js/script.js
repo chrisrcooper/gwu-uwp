@@ -6,9 +6,25 @@ $(document).ready(function()
 {
 	$('.expander').click(function(){
 		$(this).next().slideToggle('slow');
-		$(this).find('.icon').html('-');
+		$(this).find('a').toggleClass('open');
 	});
 	
+	//events fetch	
+	/*$.get('http://www.alumniconnections.com/olc/pub/GEW/rssfeeds/rssevtcal.xml?callback=?', function(d){
+		$(d).find('item').each(function(){			
+			alert('test');
+	        var $item = $(this);    
+	        var title = $item.find('title').text();
+	        var imageurl = $item.attr('imageurl');  
+	        var html = '<dt> <img class="bookImage" alt="" src="' + imageurl + '" /> </dt>';  
+	        html += '<dd> <span class="loadingPic" alt="Loading" />';  
+	        html += '<p class="title">' + title + '</p>';  
+	        html += '<p> ' + description + '</p>' ;  
+	        html += '</dd>';  
+	        alert(html);	
+	     });  
+	 });
+	*/
 	function fbFetch(){
 	  //Set Url of JSON data from the facebook graph api. make sure callback is set with a '?' to overcome the cross domain problems with JSON
       var url = "http://graph.facebook.com/GWAlumni/feed?limit=1&callback=?";
@@ -33,33 +49,10 @@ $(document).ready(function()
 
 		    $('#facebook').animate({opacity:1}, 500);*/
 		});
-	};
+	}
 	fbFetch();
-
 	
 	$(function(){
 		$('#tweets').tweetable({username: 'GWAlumni', time: false, limit: 1, replies: true, position: 'append'});
 	});
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
