@@ -302,6 +302,10 @@ a:hover { color: #036; }
 	text-transform: capitalize;
 }
 
+#container .noImg .story h2 {
+	margin-left: 10px;
+}
+
 #container .contact h2 {
 	margin-left: 50px;
 }
@@ -316,13 +320,26 @@ a:hover { color: #036; }
 	margin-left: 85px;
 }
 
+#container .noImg .story p {
+	margin-left: 10px;
+}
+
 #container .story div#tweets ul, #container .story div#facebook {
 	padding: 0;
 	margin-left: 0 !important;
 	list-style: none;
 	color: #000;
 	font-weight: bold;
+}
+
+#container .story div#tweets p{
+	font-size: 1.2em;
+	color: #000;
+	font-weight: bold;
 	padding-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 85px;
+	text-transform: capitalize;
 }
 
 #container .story div#tweets ul small {

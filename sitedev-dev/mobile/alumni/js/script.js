@@ -31,7 +31,7 @@ $(document).ready(function()
 		
 		//Use jQuery getJSON method to fetch the data from the url and then create our unordered list with the relevant data.
 		$.getJSON(url,function(json){
-		    var html = "<p><a href='http://www.facebook.com/GWAlumni'>GWAlumni</a> </strong>";
+		    var html = "<h2><a href='http://www.facebook.com/GWAlumni'>GWAlumni</a> </strong>";
 				//loop through and within data array's retrieve the message variable.
 		    	$.each(json.data,function(i,fb){		      		
 		      		
@@ -39,7 +39,7 @@ $(document).ready(function()
 		      		fb.message += '...';
 		      		html += fb.message; 
 		    	});
-		    html += "</p>";
+		    html += "</h2>";
 
 			//A little animation once fetched
 			/*$('#facebook').animate({opacity:0}, 500, function()
@@ -53,6 +53,6 @@ $(document).ready(function()
 	fbFetch();
 	
 	$(function(){
-		$('#tweets').tweetable({username: 'GWAlumni', time: false, limit: 1, replies: true, position: 'append'});
+		$('#tweets').tweetable({username: 'GWAlumni', time: false, limit: 2, replies: true, position: 'append'});
 	});
 });
