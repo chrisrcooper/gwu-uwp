@@ -53,6 +53,6 @@ $(document).ready(function()
 	fbFetch();
 	
 	$(function(){
-		$('#tweets').tweetable({username: 'GWAlumni', time: false, limit: 2, replies: true, position: 'append'});
+		$('#tweets').tweetable({username: 'GWAlumni', time: false, limit: 1, replies: true, position: 'append'});
 	});
 });

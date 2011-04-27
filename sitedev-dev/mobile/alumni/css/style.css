@@ -190,10 +190,10 @@ a:hover { color: #036; }
 }
 
 #container .sectionTitle {
-	height: 1.8em;
+	height: 2.0em;
 	background-color: #e7c22d;
 	font-size: 1.4em;
-	line-height: 1.8em;
+	line-height: 2.0em;
 	vertical-align: middle;
 	font-weight: bold;
 	color: #333;
@@ -206,8 +206,8 @@ a:hover { color: #036; }
 
 #container .sectionTitle a {
 	display: block;
-	height: 1.8em;
-	line-height: 1.8em;
+	height: 2.0em;
+	line-height: 2.0em;
 	width: 100%;
 	color: #003a5a;
 	text-decoration: none;
@@ -292,7 +292,18 @@ a:hover { color: #036; }
 	border: none 0;
 }
 
-#container .story h2, #container .contact h2 {
+.rss-box ul {
+	list-style: none;
+	margin: 10px;
+	padding: 0;
+}
+
+.rss-box .rss-item {
+	margin-bottom: 10px;
+}
+
+
+#container .story h2, #container .contact h2, .rss-box .rss-item a {
 	font-size: 1.2em;
 	color: #000;
 	font-weight: bold;
@@ -304,6 +315,10 @@ a:hover { color: #036; }
 
 #container .noImg .story h2 {
 	margin-left: 10px;
+}
+
+.rss-box .rss-item a {
+	margin-left: 0;
 }
 
 #container .contact h2 {
@@ -402,7 +417,8 @@ a:hover { color: #036; }
 #container #footer {
 	background-color: #03314b;
 	position: relative;
-	padding: 10px 7px 30px 7px;
+	padding: 10px 7px 20px 7px;
+	text-align: center;
 }
 
 #container #footer a {
@@ -411,6 +427,10 @@ a:hover { color: #036; }
 
 #container #footer a:hover {
 	text-decoration: underline;
+}
+
+#container #footer h3 {
+	margin-top: 1.2em;
 }
 
 #container #footer h3 a {
@@ -425,6 +445,7 @@ a:hover { color: #036; }
 	top: 10px;
 	color: #60a5d2;
 	font-size: 0.8em;
+	height: 1.2em;
 }
 
 #container #footer .right a {
@@ -438,11 +459,11 @@ a:hover { color: #036; }
 	clear: both;
 }
 
-strong {
+strong, b {
 	font-weight: bold;
 }
 
-em {
+em, i {
 	font-style: italic;
 }
 
